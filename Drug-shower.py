@@ -51,7 +51,7 @@ def generate_drug_plot(data):
 st.title('MAX Hospital Drug inventory and tracking')
 
 # Read the dataset
-plot_data = pd.read_csv(r"C:\Users\ACER\Downloads\drug_consumption.csv")
+plot_data = pd.read_csv(r"drug_consumption.csv")
 
 # Preprocessing: replace 'CL' prefixes with numerical categories
 for column in plot_data.loc[:, 'Alcohol':'VSA']:
